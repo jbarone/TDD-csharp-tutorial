@@ -13,6 +13,7 @@ namespace tdd_csharp_tutorial.Tests.Functional
         private Process _iisProcess;
 
         public IWebDriver WebDriver { get; private set; }
+        public TestContext TestContext { get; set; }
 
         [TestInitialize]
         public void BaseTestInitialize()

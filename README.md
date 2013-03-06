@@ -40,3 +40,35 @@ This would translate into a functional test script as follows:
 8. Run Tests (all pass)
 
  **Congratulations you have completed your user story.**
+
+Addition
+--------
+
+<dl>
+	<dt><strong>User Story:</strong></dt>
+	<dd>As a visitor, I want to be able to add 2 numbers and see the result</dd>
+</dl>
+
+This would translate into a functional test script as follows:
+
+1. Navigate to addition page of application
+2. Enter 1 into the first box
+3. Enter 1 into the second box
+4. Click "=" button
+5. Verify the result is 2
+
+	**Note:** This test should be repeated with various combinations of numbers.
+
+#### Steps
+
+1. Create data driven functional test, including page
+2. Run tests (it will fail)
+3. Create data driven unit test for controller 
+   (this will require stub implementation)
+4. Run Tests (it will fail)
+5. Implement controller
+6. Run Tests (functional test will still fail)
+7. Implement view
+8. Run Tests (all pass)
+
+ **Congratulations you have completed your user story.**
