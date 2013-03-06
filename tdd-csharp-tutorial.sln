@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd-csharp-tutorial", "tdd-csharp-tutorial\tdd-csharp-tutorial.csproj", "{1B1855EA-0BCA-47B0-9318-8CFB0F3928A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdd-csharp-tutorial.Tests", "tdd-csharp-tutorial.Tests\tdd-csharp-tutorial.Tests.csproj", "{0A464D57-CAD2-4CBF-B95B-018F5950168E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B1855EA-0BCA-47B0-9318-8CFB0F3928A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1855EA-0BCA-47B0-9318-8CFB0F3928A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1855EA-0BCA-47B0-9318-8CFB0F3928A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1855EA-0BCA-47B0-9318-8CFB0F3928A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A464D57-CAD2-4CBF-B95B-018F5950168E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A464D57-CAD2-4CBF-B95B-018F5950168E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A464D57-CAD2-4CBF-B95B-018F5950168E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A464D57-CAD2-4CBF-B95B-018F5950168E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
