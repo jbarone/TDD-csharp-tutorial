@@ -11,12 +11,18 @@ namespace tdd_csharp_tutorial.Controllers
     {
         public ActionResult Index()
         {
-            return null;
+            return View();
         }
 
         public ActionResult Index(AdditionViewModel model)
         {
-            return null;
+            if (ModelState.IsValid)
+            {
+                ModelState.Clear();
+                model.Result = model.First + model.Second;
+            }
+
+            return View(model);
         }
     }
 }
