@@ -1,0 +1,28 @@
+﻿@model tdd_csharp_tutorial.Models.AdditionViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add numbers and stuff</title>
+</head>
+<body>
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>&nbsp</td>
+            <td>@Html.EditorFor(m => m.First)</td>
+        </tr>
+        <tr>
+            <td>&#43;</td>
+            <td>@Html.EditorFor(m => m.Second)</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="=" /></td>
+            <td>@Html.EditorFor(m => m.Result)</td>
+        </tr>
+    </table>
+}
+</body>
+</html>

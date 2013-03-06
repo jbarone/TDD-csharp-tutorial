@@ -14,6 +14,7 @@ namespace tdd_csharp_tutorial.Controllers
             return View();
         }
 
+        [HttpPost]
         public ActionResult Index(AdditionViewModel model)
         {
             if (ModelState.IsValid)
