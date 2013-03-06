@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Functional\FunctionalBase.cs" />
+    <Compile Include="Functional\IndexFunctionalTests.cs" />
     <Compile Include="Functional\Pages\PageBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
