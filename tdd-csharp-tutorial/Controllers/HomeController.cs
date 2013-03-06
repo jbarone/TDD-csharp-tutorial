@@ -10,7 +10,7 @@ namespace tdd_csharp_tutorial.Controllers
     {
         public ActionResult Index()
         {
-            return null;
+            return View();
         }
     }
 }
